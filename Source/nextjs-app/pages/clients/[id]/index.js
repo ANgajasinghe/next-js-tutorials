@@ -6,7 +6,8 @@ export default function ClientProjectsPage(){
 
     function loadProjectHandler(){
         // load Data
-        router.push('./A');
+        console.log(router);
+        router.push(`${router.asPath}/A`);
     }
 
     return (
