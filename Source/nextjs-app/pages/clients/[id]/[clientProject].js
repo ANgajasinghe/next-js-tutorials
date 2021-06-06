@@ -7,8 +7,8 @@ export default function SelectedClientProjectName() {
     console.log(router.query);
 
 
-    return(<duv>
+    return(<div>
         <h1> Selected client project </h1>
-    </duv>)
+    </div>)
 
 }
