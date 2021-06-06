@@ -8,6 +8,14 @@ export default function ClientProjectsPage(){
         // load Data
         console.log(router);
         router.push(`${router.asPath}/A`);
+
+
+        // alternative way
+
+        // router.push( {
+        //     pathname: '/clients/[id]',
+        //     query: {id: 'saman'}
+        // })
     }
 
     return (
