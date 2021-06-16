@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link';
 
 // == this will split by next.js as server code == ;
 import fs from 'fs';
@@ -15,7 +16,12 @@ export default function HomePage(props: any) {
 
         <ul>
             {products?.map((p: any) => (
-                <li key={p.id}>{p.title}</li>
+                <li key={p.id}>
+                <Link href={`/${p.id}`}>
+                    {p.title}
+                </Link>
+
+                </li>
             ))}
         </ul>
 
