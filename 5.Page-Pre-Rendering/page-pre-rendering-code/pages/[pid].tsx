@@ -16,6 +16,14 @@ export default function ProductDetail(props:any) {
 // this dynamic page should render dynamically
 // if we have 3 -> we need 3 pages
 // if getStaticPaths ->  fallback='blocking' this will run again you have to null handle here
+
+
+function getData() {
+    const filePath = path.join(process.cwd(), 'data', 'dummy-backend.json');
+    const jsonData  = fs.readFileSync(filePath).toString();
+    return JSON.parse(jsonData);
+}
+
 export async function getStaticProps(context: any) {
     const {params} = context
     const productId = params.pid;
@@ -43,15 +51,26 @@ export async function getStaticProps(context: any) {
 
 // to tell next.js that this dynamic should regenerate 3 time
 export async function getStaticPaths(){
+
+    const data = await getData();
+
+    const ids = data.products.map((product:any) => product.id);
+    const pathsWithParams = ids.map((id:any) => ({ params: { pid: id } }));
+
     return {
-        paths: [
-            {params: {pid: 'p1'}},
-           // {params: {pid: 'p2'}},
-           // {params: {pid: 'p3'}},
-        ],
-        // if we have lot of pages it takes time -> 100,000,000 :)
-        // this fallback we do not need to load all it enough of have 1
-        //fallback: 'blocking' -> this will block page till the data is load
-        fallback: true
-    }
+        paths: pathsWithParams,
+        fallback: true,
+    };
+
+    // return {
+    //     paths: [
+    //         {params: {pid: 'p1'}},
+    //        // {params: {pid: 'p2'}},
+    //        // {params: {pid: 'p3'}},
+    //     ],
+    //     // if we have lot of pages it takes time -> 100,000,000 :)
+    //     // this fallback we do not need to load all it enough of have 1
+    //     //fallback: 'blocking' -> this will block page till the data is load
+    //     fallback: true
+    // }
 }

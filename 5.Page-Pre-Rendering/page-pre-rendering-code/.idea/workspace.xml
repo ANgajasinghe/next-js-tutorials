@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4353f4b0-7022-4183-813f-3cb1be280b94" name="Default Changelist" comment="[Page Pre-Rendering] Return Object Attributes">
-      <change afterPath="$PROJECT_DIR$/pages/[pid].tsx" afterDir="false" />
+    <list default="true" id="4353f4b0-7022-4183-813f-3cb1be280b94" name="Default Changelist" comment="[Page Pre-Rendering] getStaticPaths with dynamic static page rendering">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/[pid].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/[pid].tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623824269409</updated>
-      <workItem from="1623824273959" duration="6476000" />
+      <workItem from="1623824273959" duration="6815000" />
     </task>
     <task id="LOCAL-00001" summary="[Page Pre-Rendering] load data from file system and pass to the client">
       <created>1623826684689</created>
@@ -90,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623830488593</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[Page Pre-Rendering] getStaticPaths with dynamic static page rendering">
+      <created>1623832912993</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623832912993</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +118,7 @@
     <MESSAGE value="[Page Pre-Rendering] load data from file system and pass to the client" />
     <MESSAGE value="[Page Pre-Rendering] IRS" />
     <MESSAGE value="[Page Pre-Rendering] Return Object Attributes" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Page Pre-Rendering] Return Object Attributes" />
+    <MESSAGE value="[Page Pre-Rendering] getStaticPaths with dynamic static page rendering" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Page Pre-Rendering] getStaticPaths with dynamic static page rendering" />
   </component>
 </project>
