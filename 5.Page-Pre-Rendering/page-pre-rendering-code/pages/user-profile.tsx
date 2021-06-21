@@ -5,9 +5,17 @@ export default function UserProfilePage(props: any) {
 // this function will call for every incoming req
 // this will be SSR -> server side rendering
 export async function getServerSideProps(context: any) {
+
+    const {params, req , res} = context;
+
+    // we can write server side code here
+    // there is no getStaticPaths
+    console.log(res,req)
     return {
         props:{
             username: 'akalanka'
         }
     }
+
+    // https://swr.vercel.app/ alternative for axios
 }
