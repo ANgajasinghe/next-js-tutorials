@@ -1,59 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4353f4b0-7022-4183-813f-3cb1be280b94" name="Default Changelist" comment="[Page Pre-Rendering] Server Side Rendering Started">
-      <change afterPath="$PROJECT_DIR$/pages/couse.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/last-sales.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/contact/contact-form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/contact/contact-form.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/home-page/featured-posts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/home-page/featured-posts.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/home-page/hero.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/home-page/hero.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/layout/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/layout/logo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/layout/logo.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/layout/main-navigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/layout/main-navigation.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/posts/all-posts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/posts/all-posts.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/posts/post-detail/post-content.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/posts/post-detail/post-content.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/posts/post-detail/post-header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/posts/post-detail/post-header.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/posts/post-item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/posts/post-item.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/posts/posts-grid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/posts/posts-grid.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/ui/notification.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/components/ui/notification.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/lib/posts-util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/next.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/pages/_app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/pages/_document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/pages/api/contact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/pages/contact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/pages/posts/[slug].js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/pages/posts/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/posts/getting-started-with-nextjs.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/posts/mastering-javascript.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/public/images/posts/getting-started-with-nextjs/getting-started-nextjs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/public/images/posts/getting-started-with-nextjs/nextjs-file-based-routing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/public/images/posts/mastering-javascript/mastering-js-thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/public/images/site/max.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nextjs-course-code/styles/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/user-profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user-profile.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="4353f4b0-7022-4183-813f-3cb1be280b94" name="Default Changelist" comment="[Page Pre-Rendering] Real time API req with swr" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +66,7 @@
       <workItem from="1623824273959" duration="7045000" />
       <workItem from="1623839165070" duration="36000" />
       <workItem from="1624256029988" duration="4652000" />
-      <workItem from="1624262958166" duration="1143000" />
+      <workItem from="1624262958166" duration="1941000" />
     </task>
     <task id="LOCAL-00001" summary="[Page Pre-Rendering] load data from file system and pass to the client">
       <created>1623826684689</created>
@@ -176,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624261544225</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[Page Pre-Rendering] Real time API req with swr">
+      <created>1624264305824</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1624264305824</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +159,7 @@
     <MESSAGE value="[Page Pre-Rendering] 17 - completed" />
     <MESSAGE value="[Page Pre-Rendering] Not found page with fallback: true," />
     <MESSAGE value="[Page Pre-Rendering] Server Side Rendering Started" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Page Pre-Rendering] Server Side Rendering Started" />
+    <MESSAGE value="[Page Pre-Rendering] Real time API req with swr" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Page Pre-Rendering] Real time API req with swr" />
   </component>
 </project>
