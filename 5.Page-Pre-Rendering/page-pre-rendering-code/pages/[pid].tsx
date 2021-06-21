@@ -1,7 +1,7 @@
 import path from "path";
 import fs from "fs";
 
-export default function ProductDetail(props:any) {
+export default function ProductDetail(props: any) {
     const {loadedProduct} = props;
     return (
         <>
@@ -20,7 +20,7 @@ export default function ProductDetail(props:any) {
 
 function getData() {
     const filePath = path.join(process.cwd(), 'data', 'dummy-backend.json');
-    const jsonData  = fs.readFileSync(filePath).toString();
+    const jsonData = fs.readFileSync(filePath).toString();
     return JSON.parse(jsonData);
 }
 
@@ -32,30 +32,40 @@ export async function getStaticProps(context: any) {
     let jsonData = fs.readFileSync(filePath).toString();
 
     console.log(jsonData);
-    if(!jsonData){
-        return {props:{
-                loadedProduct:{}
-            }}
+    if (!jsonData) {
+        return {
+            props: {
+                loadedProduct: {}
+            }
+        }
     }
     const data = JSON.parse(jsonData).products
     const loadedProduct = data.find((p: any) => p.id === productId);
-    console.log(loadedProduct);
-    return {
-            props: {
-                loadedProduct: loadedProduct ?? {}
-            },
+
+    if (!loadedProduct) {
+        return {
+            notFound: true
+
         }
+    }
+
+
+    return {
+        props: {
+            loadedProduct: loadedProduct ?? {}
+        },
+    }
 
 
 }
 
 // to tell next.js that this dynamic should regenerate 3 time
-export async function getStaticPaths(){
+export async function getStaticPaths() {
 
     const data = await getData();
 
-    const ids = data.products.map((product:any) => product.id);
-    const pathsWithParams = ids.map((id:any) => ({ params: { pid: id } }));
+    const ids = data.products.map((product: any) => product.id);
+    const pathsWithParams = ids.map((id: any) => ({params: {pid: id}}));
 
     return {
         paths: pathsWithParams,
