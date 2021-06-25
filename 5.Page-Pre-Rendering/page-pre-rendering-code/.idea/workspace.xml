@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4353f4b0-7022-4183-813f-3cb1be280b94" name="Default Changelist" comment="[Page Pre-Rendering] Real time API req with swr" />
+    <list default="true" id="4353f4b0-7022-4183-813f-3cb1be280b94" name="Default Changelist" comment="[Page Pre-Rendering] Real time API req with swr">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +69,8 @@
       <workItem from="1623839165070" duration="36000" />
       <workItem from="1624256029988" duration="4652000" />
       <workItem from="1624262958166" duration="1941000" />
+      <workItem from="1624287026249" duration="592000" />
+      <workItem from="1624349241862" duration="1209000" />
     </task>
     <task id="LOCAL-00001" summary="[Page Pre-Rendering] load data from file system and pass to the client">
       <created>1623826684689</created>
